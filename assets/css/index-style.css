@@ -1,0 +1,13 @@
+body {
+    background-image: linear-gradient(#05444d, #0c2442);  
+    background-repeat: no-repeat;
+}
+
+nav {
+    font-family: 'Damion', cursive;
+    font-size: 25px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(182, 121, 121);
+}
