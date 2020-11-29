@@ -1,0 +1,58 @@
+/* Styling for Entire Page */
+body {
+    background-image: linear-gradient(#4d5e69,#19252c);  
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* NavBar Custom Styling */
+nav {
+    font-family: 'Cormorant SC', serif;
+    font-size: 25px;
+    color: #788498;
+}
+
+.navbar {
+    padding: .5rem 2rem;
+}
+
+.navbar-custom a {
+    color:#788498);
+}
+
+/* Body of Page */ 
+.container {
+    max-width: 800px; display: block;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 98px;
+    color: #B8C3B3;
+    text-align: right;
+    line-height: 74px;
+    letter-spacing: 20px;
+    margin-top: 20px;
+}
+
+.card-title {
+    font-family: 'Cormorant SC', serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+.card-text {
+    border-style: solid solid none solid;
+    border-width: 1px;
+    font-family: 'Castoro', serif;
+    font-size: 11px;
+    padding: 0.05rem;
+}
+
+.card-body {
+    padding: 1rem;
+}
