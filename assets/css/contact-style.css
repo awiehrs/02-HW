@@ -56,3 +56,13 @@ h1 {
 .card-body {
     padding: 1rem;
 }
+
+form {
+    color: #F9F6EF;
+    font-family: 'Castoro', serif;
+    font-size: 14px;
+}
+
+.btn.btn-primary {
+    background-color: #788498;
+}
