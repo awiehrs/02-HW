@@ -4,10 +4,56 @@ body {
 }
 
 nav {
-    font-family: 'Damion', cursive;
+    font-family: 'Cormorant SC', serif;
     font-size: 25px;
+}
+
+.navbar {
+    padding: .5rem 9rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(182, 121, 121);
+}
+
+.container {
+    max-width: 800px; display: block;
+}
+
+.page-header {
+    max-height: 350px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 98px;
+    color: #D5AD6D; /*if no support for background-clip*/
+    background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    line-height: 74px;
+    padding: 20px 0;
+    
+}
+
+.card-title {
+    font-family: 'Lancelot', cursive;
+    font-size: 23px;
+    font-weight: 450;
+    text-align: center;
+}
+
+.card-text {
+    border-style: solid solid none solid;
+    border-width: 1px;
+    font-family: 'Castoro', serif;
+    font-size: 11px;
+    padding: 0.05rem;
+}
+
+.card-body {
+    padding: 1rem;
 }
