@@ -1,48 +1,47 @@
+/* Styling for Entire Page */
 body {
-    background-image: linear-gradient(#05444d, #0c2442);  
+    background-image: linear-gradient(#4d5e69,#19252c);  
     background-repeat: no-repeat;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* NavBar Custom Styling */
 nav {
     font-family: 'Cormorant SC', serif;
     font-size: 25px;
+    color: #788498;
 }
 
 .navbar {
-    padding: .5rem 9rem;
+    padding: .5rem 2rem;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: rgb(182, 121, 121);
+.navbar-custom a {
+    color:#788498);
 }
 
+/* Body of Page */ 
 .container {
     max-width: 800px; display: block;
-}
-
-.page-header {
-    max-height: 350px;
 }
 
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 98px;
-    color: #D5AD6D; /*if no support for background-clip*/
-    background: -webkit-linear-gradient(transparent, transparent),
-    -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
-    background: -o-linear-gradient(transparent, transparent);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #B8C3B3;
     text-align: right;
     line-height: 74px;
-    padding: 20px 0;
-    
+    letter-spacing: 20px;
+    margin-top: 20px;
 }
 
 .card-title {
-    font-family: 'Lancelot', cursive;
+    font-family: 'Cormorant SC', serif;
     font-size: 23px;
-    font-weight: 450;
     text-align: center;
 }
 
@@ -56,4 +55,26 @@ h1 {
 
 .card-body {
     padding: 1rem;
+}
+
+.indexMiddleBio {
+    color: #F9F6EF;
+    font-family: 'Castoro', serif;
+    font-size: 14px;
+    margin: 15px 1px 1px 1px;
+    text-align:justify;
+}
+
+#bottomRow.row {
+    color: #F9F6EF;
+    font-family: 'Castoro', serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.bottomText {
+    border-style: solid solid none solid;
+    border-width: 1px;
+    border-color: #1a252d;
+    padding: 10px;
 }
