@@ -9,4 +9,13 @@ The project's inspiration comes from artist mock-up portfolio websites. I have a
 
 ### Application Link
 
-### Screenshot of Deployed Website
+Deployed link: [https://awiehrs.github.io/02-HW/]
+
+### Screenshot of Deployed Page
+
+![alt text](assets/screenshots/desktop-screenshot.png "Desktop Screenshot")
+![alt text](assets/screenshots/mobile-screenshot.png "Mobile Desktop")
+
+#### Credits
+
+This project was completed while working with Austin Ruhf, some pieces of code may look similar
