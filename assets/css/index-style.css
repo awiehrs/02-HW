@@ -2,6 +2,8 @@
 body {
     background-image: linear-gradient(#4d5e69,#19252c);  
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 img {
@@ -24,14 +26,14 @@ nav {
     color:#788498);
 }
 
-/* Body of Page */ 
+/* Body of Page - Header Area */ 
 .container {
     max-width: 800px; display: block;
 }
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 98px;
+    font-size: 8vw;
     color: #B8C3B3;
     text-align: right;
     line-height: 74px;
@@ -56,7 +58,7 @@ h1 {
 .card-body {
     padding: 1rem;
 }
-
+/* Body of Page - Main Content */
 .indexMiddleBio {
     color: #F9F6EF;
     font-family: 'Castoro', serif;
@@ -65,7 +67,7 @@ h1 {
     text-align:justify;
 }
 
-#bottomRow.row {
+.row#bottomRow {
     color: #F9F6EF;
     font-family: 'Castoro', serif;
     font-size: 14px;
@@ -77,4 +79,8 @@ h1 {
     border-width: 1px;
     border-color: #1a252d;
     padding: 10px;
+}
+
+#bottomPhoto2 {
+    max-height: 90%;
 }

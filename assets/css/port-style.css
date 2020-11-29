@@ -2,12 +2,13 @@
 body {
     background-image: linear-gradient(#4d5e69,#131c22);  
     background-repeat: no-repeat;
-    background-position: fixed;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 img {
     max-width: 100%;
-    max-height: 100%;
     border-style: solid;
     border-width: 2px;
     border-color: #1a252d;
@@ -28,14 +29,14 @@ nav {
     color:#788498);
 }
 
-/* Body of Page */ 
+/* Body of Page - Header Area */ 
 .container {
     max-width: 800px; display: block;
 }
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 98px;
+    font-size: 8vw;
     color: #B8C3B3;
     text-align: right;
     line-height: 74px;
@@ -61,15 +62,17 @@ h1 {
     padding: 1rem;
 }
 
-.nightImg {
-    margin-top: 25px;
+/* Body Of Page - Images */
+#fishImg {
+    margin-top: 20px;
 }
-
 .row#animalsRow {
     margin-top: 5px;
     width: 100%;
 }
-
-.fishImg {
-    max-height: 80%;
+#waterImg {
+    margin-left: 30px;
+    max-height: 85%;
+    width: 135%;
 }
+
