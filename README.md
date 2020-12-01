@@ -13,8 +13,8 @@ Deployed link: [https://awiehrs.github.io/02-HW/]
 
 ### Screenshot of Deployed Page
 
-![alt text](assets/screenshots/desktop-screenshot.png "Desktop Screenshot")
-![alt text](assets/screenshots/mobile-screenshot.png "Mobile Desktop")
+![screenshots](assets/screenshots/desktop-screenshot.png "Desktop Screenshot")
+![screenshots](assets/screenshots/mobile-screenshot.png "Mobile Desktop")
 
 #### Credits
 
